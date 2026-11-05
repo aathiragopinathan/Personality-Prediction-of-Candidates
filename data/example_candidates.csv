@@ -1,0 +1,9 @@
+candidate_id,data_origin,planning,collaboration,curiosity,adaptability,analytical_skill,communication_skill,preferred_activity
+DEMO-000,synthetic,4.164,3.681,2.304,2.828,2.774,2.792,experimentation
+DEMO-001,synthetic,,2.932,2.068,2.656,3.214,,experimentation
+DEMO-002,synthetic,2.82,1.898,3.675,3.652,3.475,3.647,experimentation
+DEMO-003,synthetic,3.695,2.221,,,4.265,2.382,discussion
+DEMO-004,synthetic,2.151,3.984,2.137,2.568,2.603,1.412,analysis
+DEMO-005,synthetic,3.52,3.686,2.793,4.527,3.416,,experimentation
+DEMO-006,synthetic,1.64,2.2,3.253,3.541,4.1,1.956,analysis
+DEMO-007,synthetic,2.978,2.609,2.551,1.695,3.985,3.859,discussion

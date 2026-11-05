@@ -1,0 +1,112 @@
+{
+  "purpose": "Synthetic educational experiment; no real personality or hiring validity",
+  "seed": 42,
+  "dataset_sha256": "38dc70f1409c81c6775ab7eeef7995ae353fb68139c903821ff1fce55f05265d",
+  "rows": 1200,
+  "training_rows": 900,
+  "test_rows": 300,
+  "class_counts": {
+    "analytical": 423,
+    "exploratory": 390,
+    "collaborative": 387
+  },
+  "missing_counts": {
+    "planning": 43,
+    "collaboration": 56,
+    "curiosity": 48,
+    "adaptability": 48,
+    "analytical_skill": 41,
+    "communication_skill": 50,
+    "preferred_activity": 33
+  },
+  "selected_model": "logistic_raw",
+  "selection_metric": "training 5-fold CV macro F1",
+  "test": {
+    "accuracy": 0.74,
+    "balanced_accuracy": 0.7410036957790314,
+    "macro_f1": 0.7401731923471053,
+    "log_loss": 0.5925839652074417,
+    "classification_report": {
+      "analytical": {
+        "precision": 0.7425742574257426,
+        "recall": 0.7075471698113207,
+        "f1-score": 0.7246376811594203,
+        "support": 106.0
+      },
+      "collaborative": {
+        "precision": 0.7524752475247525,
+        "recall": 0.7835051546391752,
+        "f1-score": 0.7676767676767676,
+        "support": 97.0
+      },
+      "exploratory": {
+        "precision": 0.7244897959183674,
+        "recall": 0.7319587628865979,
+        "f1-score": 0.7282051282051282,
+        "support": 97.0
+      },
+      "accuracy": 0.74,
+      "macro avg": {
+        "precision": 0.7398464336229541,
+        "recall": 0.7410036957790314,
+        "f1-score": 0.7401731923471053,
+        "support": 300.0
+      },
+      "weighted avg": {
+        "precision": 0.7399282683370377,
+        "recall": 0.74,
+        "f1-score": 0.7397071270114748,
+        "support": 300.0
+      }
+    },
+    "accuracy_bootstrap_95_interval": [
+      0.6933333333333334,
+      0.7933333333333333
+    ]
+  },
+  "baseline_test": {
+    "accuracy": 0.35333333333333333,
+    "balanced_accuracy": 0.3333333333333333,
+    "macro_f1": 0.17405582922824303,
+    "log_loss": 23.30822919162909,
+    "classification_report": {
+      "analytical": {
+        "precision": 0.35333333333333333,
+        "recall": 1.0,
+        "f1-score": 0.5221674876847291,
+        "support": 106.0
+      },
+      "collaborative": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 97.0
+      },
+      "exploratory": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 97.0
+      },
+      "accuracy": 0.35333333333333333,
+      "macro avg": {
+        "precision": 0.11777777777777777,
+        "recall": 0.3333333333333333,
+        "f1-score": 0.17405582922824303,
+        "support": 300.0
+      },
+      "weighted avg": {
+        "precision": 0.12484444444444444,
+        "recall": 0.35333333333333333,
+        "f1-score": 0.1844991789819376,
+        "support": 300.0
+      }
+    }
+  },
+  "versions": {
+    "python": "3.14.3",
+    "sklearn": "1.9.1",
+    "numpy": "2.5.4",
+    "pandas": "3.1.1"
+  }
+}
